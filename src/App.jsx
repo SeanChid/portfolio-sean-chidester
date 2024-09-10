@@ -1,34 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './components/Header.jsx'
+// import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      <Header />
+
+      <div id='home' style={{ padding: '100px', backgroundColor: '#f0f0f0'}}>
+        <h2>Home Section</h2>
+        <p>Howdy Yall Welcome to this here page</p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div id='about' style={{ padding: '100px', backgroundColor: '#e0e0e0'}}>
+        <h2>About Section</h2>
+        <p>This is my soon to be portfolio</p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      <div id='contact' style={{ padding: '100px', backgroundColor: '#d0d0d0'}}>
+        <h2>Contact Section</h2>
+        <p>contact me here I guess</p>
+      </div>
+    </div>
   )
 }
 
