@@ -2,14 +2,15 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const Header = () => {
     return (
-        <Navbar bg='dark' variant='dark' expand='lg' fixed='top'>
+        <Navbar className='header-bg' variant='dark' expand='lg' sticky='top'>
             <Container>
-                <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav'>
-                    <Nav className='me-auto'>
+                    <Nav className='mx-auto'>
+                        <Navbar.Brand href="#home">Sean Chidester</Navbar.Brand>
                         <Nav.Link href='#home'>Home</Nav.Link>
                         <Nav.Link href='#about'>About</Nav.Link>
+                        <Nav.Link href='#projects'>Projects</Nav.Link>
                         <Nav.Link href='#contact'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
