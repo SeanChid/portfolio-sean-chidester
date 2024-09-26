@@ -7,7 +7,6 @@ const Header = () => {
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav className='mx-auto'>
-                        <Navbar.Brand href="#home">Sean Chidester</Navbar.Brand>
                         <Nav.Link href='#home'>Home</Nav.Link>
                         <Nav.Link href='#about'>About</Nav.Link>
                         <Nav.Link href='#projects'>Projects</Nav.Link>

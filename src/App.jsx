@@ -1,4 +1,5 @@
 import Header from './components/Header.jsx'
+import Home from './components/Home.jsx'
 import './App.css'
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
       <Header />
 
       <div id='home' className='section-pd home-bg'>
-        <h2>Home Section</h2>
-        <p>Howdy Yall Welcome to this here page</p>
+        <h1>Sean Chidester - Full Stack Web Developer</h1>
+        <br></br>
+        <Home />
       </div>
 
       <div id='about' className='section-pd about-bg'>
