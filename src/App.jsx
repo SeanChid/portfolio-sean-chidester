@@ -1,5 +1,6 @@
 import Header from './components/Header.jsx'
 import Home from './components/Home.jsx'
+import Skills from './components/Skills.jsx'
 import './App.css'
 
 function App() {
@@ -7,23 +8,22 @@ function App() {
     <div>
       <Header />
 
-      <div id='home' className='section-pd home-bg'>
+      <div id='home' className='section-pd first-bg'>
         <h1>Sean Chidester - Full Stack Web Developer</h1>
-        <br></br>
         <Home />
       </div>
 
-      <div id='about' className='section-pd about-bg'>
-        <h2>About Section</h2>
-        <p>This is my soon to be portfolio</p>
+      <div id='skills' className='section-pd second-bg'>
+        <h2>Skills</h2>
+        <Skills />
       </div>
 
-      <div id='projects' className='section-pd projects-bg'>
+      <div id='projects' className='section-pd first-bg'>
         <h2>Projects</h2>
         <p>My projects will go here</p>
       </div>
 
-      <div id='contact' className='section-pd contact-bg'>
+      <div id='contact' className='section-pd second-bg'>
         <h2>Contact Section</h2>
         <p>contact me here I guess</p>
       </div>

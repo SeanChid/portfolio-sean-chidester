@@ -6,22 +6,65 @@
   padding: 20%;
 }
 
-.home-bg {
+.first-bg {
   background: linear-gradient(135deg, #1a1a1a, #1b4d99, #1a1a1a);
   color: #f5f5f5;
 }
 
-.about-bg {
+.second-bg {
   background: linear-gradient(45deg, #1a1a1a, #1b4d99, #1a1a1a);
   color: #f5f5f5;
 }
 
-.projects-bg {
-  background: linear-gradient(135deg, #1a1a1a, #1b4d99, #1a1a1a);
-  color: #f5f5f5;
+#text {
+  padding: 60px;
 }
 
-.contact-bg {
-  background: linear-gradient(45deg, #1a1a1a, #1b4d99, #1a1a1a);
-  color: #f5f5f5;
+.react-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(assets/React.png);
+  background-size: cover;
+}
+
+.js-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(assets/JS.png);
+  background-size: cover;
+}
+
+.html-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(assets/HTML.png);
+  background-size: cover;
+}
+
+.css-img {
+  width: 120px;
+  height: 170px;
+  background-image: url(assets/CSS.png);
+  background-size: cover;
+}
+
+.postgres-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(assets/Postgres.png);
+  background-size: cover;
+}
+
+.nodejs-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(assets/NodeJS.png);
+  background-size: cover;
+}
+
+.redux-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(assets/Redux.png);
+  background-size: cover;
 }
