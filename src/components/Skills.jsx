@@ -1,13 +1,27 @@
 const Skills = () => {
     return (
-        <div>
-            <div className='react-img'></div>
-            <div className='js-img'></div>
-            <div className='html-img'></div>
-            <div className='css-img'></div>
-            <div className='postgres-img'></div>
-            <div className='nodejs-img'></div>
-            <div className='redux-img'></div>
+        <div className='logos-pos'>
+            <div className='react-img'>
+                <span className='hover-text'>React</span>
+            </div>
+            <div className='js-img'>
+                <span className='hover-text'>JavaScript</span>
+            </div>
+            <div className='html-img'>
+                <span className='hover-text'>HTML</span>
+            </div>
+            <div className='css-img'>
+                <span className='hover-text'>CSS</span>
+            </div>
+            <div className='postgres-img'>
+                <span className='hover-text'>PostgreSQL</span>
+            </div>
+            <div className='nodejs-img'>
+                <span className='hover-text'>Node.js</span>
+            </div>
+            <div className='redux-img'>
+                <span className='hover-text'>Redux</span>
+            </div>
         </div>
     )
 }

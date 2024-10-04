@@ -14,17 +14,17 @@ function App() {
       </div>
 
       <div id='skills' className='section-pd second-bg'>
-        <h2>Skills</h2>
+        <h1>Skills</h1>
         <Skills />
       </div>
 
       <div id='projects' className='section-pd first-bg'>
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <p>My projects will go here</p>
       </div>
 
       <div id='contact' className='section-pd second-bg'>
-        <h2>Contact Section</h2>
+        <h1>Contact Section</h1>
         <p>contact me here I guess</p>
       </div>
     </div>

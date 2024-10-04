@@ -4,7 +4,7 @@
 
 .section-pd {
   min-height: 100vh;
-  padding: 70px;
+  padding: 100px;
 }
 
 .first-bg {
@@ -21,79 +21,65 @@
   padding: 60px;
 }
 
-.react-img {
+.logos-pos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.logos-pos div {
   width: 120px;
   height: 120px;
-  background-image: url(assets/React.png);
   background-size: cover;
   position: relative;
-  z-index: 5;
-  bottom: 0px;
-  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.logos-pos div:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.logos-pos div:hover .hover-text {
+  opacity: 1;
+}
+
+.react-img {
+  background-image: url(assets/React.png);
 }
 
 .js-img {
-  width: 120px;
-  height: 120px;
   background-image: url(assets/JS.png);
-  background-size: cover;
-  position: relative;
-  z-index: 5;
-  bottom: 120px;
-  left: 120px;
 }
 
 .html-img {
-  width: 120px;
-  height: 120px;
   background-image: url(assets/HTML.png);
-  background-size: cover;
-  position: relative;
-  z-index: 5;
-  bottom: 240px;
-  left: 240px;
 }
 
 .css-img {
-  width: 120px;
-  height: 120px;
   background-image: url(assets/CSS3.png);
-  background-size: cover;
-  position: relative;
-  z-index: 5;
-  bottom: 360px;
-  left: 360px;
 }
 
 .postgres-img {
-  width: 120px;
-  height: 120px;
   background-image: url(assets/Postgres.png);
-  background-size: cover;
-  position: relative;
-  z-index: 5;
-  bottom: 480px;
-  left: 480px;
 }
 
 .nodejs-img {
-  width: 120px;
-  height: 120px;
   background-image: url(assets/NodeJS.png);
-  background-size: cover;
-  position: relative;
-  z-index: 5;
-  bottom: 600px;
-  left: 600px;
 }
 
 .redux-img {
-  width: 120px;
-  height: 120px;
   background-image: url(assets/Redux.png);
-  background-size: cover;
-  position: relative;
-  z-index: 5;
-  bottom: 720px;
-  left: 720px;
 }
