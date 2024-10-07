@@ -21,9 +21,16 @@ h1 {
   text-align: center;
 }
 
+h5 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
 #text {
+  width: 100%;
+  max-width: 600px;
+  margin: 100px auto;
   text-align: center;
-  padding: 60px;
 }
 
 .logos-pos {
