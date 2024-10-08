@@ -37,7 +37,15 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  flex-wrap: wrap;
+  min-height: 50vh;
+  gap: 45px;
+}
+
+@media (max-width: 480px) {
+  .logos-pos {
+    min-height: auto;
+  }
 }
 
 .hover-text {
@@ -97,27 +105,55 @@ h5 {
   background-image: url(assets/Redux.png);
 }
 
+.git-img {
+  background-image: url(assets/Git.png);
+}
+
 .projects-pos {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  height: 50vh;
-  gap: 50px;
+  gap: 20px;
 }
 
-.projects-pos div {
-  width: 30vw;
-  height: 30vh;
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 400px;
+  max-width: 600px;
+  transition: all 0.3s ease;
+}
+
+.project-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.project-text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.project-btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.skybooking-img, .adoptahobby-img {
+  width: 360px;
+  height: 180px;
+  border-radius: 20px;
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
-  position: relative;
+  transition: all 0.3s ease;
 }
 
-.projects-text {
-  position: absolute;
-  bottom: -30px;
+.skybooking-img:hover, .adoptahobby-img:hover {
+  width: 400px;
+  height: 200px;
 }
 
 .skybooking-img {

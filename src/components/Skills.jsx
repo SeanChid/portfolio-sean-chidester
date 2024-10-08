@@ -22,6 +22,9 @@ const Skills = () => {
             <div className='redux-img'>
                 <span className='hover-text'>Redux</span>
             </div>
+            <div className='git-img'>
+                <span className='hover-text'>Git</span>
+            </div>
         </div>
     )
 }
