@@ -26,7 +26,20 @@ h5 {
   line-height: 1.5;
 }
 
-#text {
+.home-pos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-btns {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.intro-txt {
   width: 100%;
   max-width: 600px;
   margin: 100px auto;
@@ -40,12 +53,6 @@ h5 {
   flex-wrap: wrap;
   min-height: 50vh;
   gap: 45px;
-}
-
-@media (max-width: 480px) {
-  .logos-pos {
-    min-height: auto;
-  }
 }
 
 .hover-text {
@@ -143,8 +150,8 @@ h5 {
 }
 
 .skybooking-img, .adoptahobby-img {
-  width: 360px;
-  height: 180px;
+  width: 600px;
+  height: 300px;
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -152,8 +159,8 @@ h5 {
 }
 
 .skybooking-img:hover, .adoptahobby-img:hover {
-  width: 400px;
-  height: 200px;
+  width: 650px;
+  height: 325px;
 }
 
 .skybooking-img {
@@ -162,4 +169,20 @@ h5 {
 
 .adoptahobby-img {
   background-image: url(assets/AdoptAHobby.png);
+}
+
+@media (max-width: 480px) {
+  .logos-pos {
+    min-height: auto;
+  }
+
+  .skybooking-img, .adoptahobby-img {
+    width: 360px;
+    height: 180px;
+  }
+
+  .skybooking-img:hover, .adoptahobby-img:hover {
+    width: 400px;
+    height: 200px;
+  }
 }
