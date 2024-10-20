@@ -2,6 +2,7 @@ import Header from './components/Header.jsx'
 import Home from './components/Home.jsx'
 import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
+import Contact from './components/Contact.jsx'
 import './App.css'
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 
       <div id='contact' className='section-pd second-bg'>
         <h1>Contact Me</h1>
-        <p>contact me here I guess</p>
+        <Contact />
       </div>
     </div>
   )
