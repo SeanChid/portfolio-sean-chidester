@@ -8,8 +8,18 @@ const Home = () => {
                 </p>
             </div>
             <div className='link-btns'>
-                <button className='btn btn-primary'>GitHub</button>
-                <button className='btn btn-primary'>LinkedIn</button>
+                <button 
+                    className='btn btn-primary' 
+                    onClick={() => window.location.href = 'https://github.com/SeanChid'}
+                >
+                    GitHub
+                </button>
+                <button 
+                    className='btn btn-primary' 
+                    onClick={() => window.location.href = 'https://www.linkedin.com/in/sean-chidester-4015842a9'}
+                >
+                    LinkedIn
+                </button>
             </div>
         </div>
     )

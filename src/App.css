@@ -183,7 +183,7 @@ h5 {
 
 form .form-control {
   background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  color: white !important;
   border: none;
   margin-bottom: 15px;
   font-size: 1.2rem;

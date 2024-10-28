@@ -10,20 +10,40 @@ const Projects = () => {
                     </p>
                 </div>
                 <div className='project-btns'>
-                    <button className='btn btn-primary'>GitHub</button>
-                    <button className='btn btn-primary'>Demo</button>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://github.com/SeanChid/wb-project-2'}
+                    >
+                        GitHub
+                    </button>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://www.youtube.com/watch?v=fIIu3Auwdvs'}
+                    >
+                        Demo
+                    </button>
                 </div>
             </div>
             <div className='project'>
                 <div className='adoptahobby-img'></div>
                 <div className='project-info'>
                     <p className='project-text'>
-                        A hobbiest website of sorts.
+                        A hobbiest website created with React with a Postgres database.
                     </p>
                 </div>
                 <div className='project-btns'>
-                    <button className='btn btn-primary'>GitHub</button>
-                    <button className='btn btn-primary'>Demo</button>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://github.com/AlyssaBeth14/adopt-a-hobby'}
+                    >
+                        GitHub
+                    </button>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://www.youtube.com/watch?v=76hOG2_k0UI'}
+                    >
+                        Demo
+                    </button>
                 </div>
             </div>
         </div>
