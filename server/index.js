@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from 'express'
 import nodemailer from 'nodemailer'
 
@@ -12,14 +13,14 @@ app.post('/send-email', async (req, res) => {
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: process.env.chidestersean320,
+            user: process.env.email,
             pass: process.env.password,
         }
     })
 
     let mailOptions = {
         from: email,
-        to: process.env.chidestersean320,
+        to: process.env.email,
         subject: `New message from ${name}`,
         text: message,
     }
