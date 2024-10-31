@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import express from 'express'
 import nodemailer from 'nodemailer'
+import ViteExpress from 'vite-express'
 
 const app = express()
 
@@ -21,7 +22,8 @@ app.post('/send-email', async (req, res) => {
     let mailOptions = {
         from: email,
         to: process.env.email,
-        subject: `New message from ${name}`,
+        replyTo: email,
+        subject: `Message from ${name}`,
         text: message,
     }
 
@@ -34,4 +36,4 @@ app.post('/send-email', async (req, res) => {
     }
 })
 
-app.listen(8000, () => console.log('server is running on port 8000'))
+ViteExpress.listen(app, 8000, () => console.log('server is running on port 8000'))
