@@ -5,9 +5,15 @@ const Contact = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const [honeypot, setHoneypot] = useState('')
 
     const submit = (e) => {
         e.preventDefault()
+
+        if (honeypot) {
+            console.warn('Spam submission blocked')
+            return
+        }
 
         const info = {
             name: name,
@@ -55,6 +61,14 @@ const Contact = () => {
                     onChange={(e) => setMessage(e.target.value)}
                     required
                 ></textarea>
+                <input
+                    type='text'
+                    style={{ display: 'none' }}
+                    value={honeypot}
+                    onChange={(e) => setHoneypot(e.target.value)}
+                    tabIndex='-1'
+                    autoComplete='off'
+                />
                 <button className='btn btn-primary' type='submit'>Submit</button>
             </form>
         </div>
