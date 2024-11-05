@@ -6,7 +6,7 @@ const Projects = () => {
                 <div className='project-info'>
                     <p className='project-text'>
                         A flight booking application built with Express and a PostgreSQL database
-                        for the backend with an implemented flight data API
+                        for the backend with an implemented flight data API for scheduled flights.
                     </p>
                 </div>
                 <div className='project-btns'>

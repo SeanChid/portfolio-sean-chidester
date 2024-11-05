@@ -35,42 +35,47 @@ const Contact = () => {
     }
 
     return (
-        <div className='contact-form'>
-            <form className='form' onSubmit={submit}>
-                <input 
-                    className='form-control'
-                    type='text'
-                    placeholder='Your Name'
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required
-                />
-                <input
-                    className='form-control'
-                    type='email'
-                    placeholder='Your Email'
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                />
-                <textarea
-                    className='form-control'
-                    placeholder='Your Message'
-                    rows='5'
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    required
-                ></textarea>
-                <input
-                    type='text'
-                    style={{ display: 'none' }}
-                    value={honeypot}
-                    onChange={(e) => setHoneypot(e.target.value)}
-                    tabIndex='-1'
-                    autoComplete='off'
-                />
-                <button className='btn btn-primary' type='submit'>Submit</button>
-            </form>
+        <div>
+            <br/>
+            <h2>Email: chidestersean320@gmail.com</h2>
+            <br/>
+            <div className='contact-form'>
+                <form className='form' onSubmit={submit}>
+                    <input 
+                        className='form-control'
+                        type='text'
+                        placeholder='Your Name'
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        required
+                    />
+                    <input
+                        className='form-control'
+                        type='email'
+                        placeholder='Your Email'
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
+                    <textarea
+                        className='form-control'
+                        placeholder='Your Message'
+                        rows='5'
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                        required
+                    ></textarea>
+                    <input
+                        type='text'
+                        style={{ display: 'none' }}
+                        value={honeypot}
+                        onChange={(e) => setHoneypot(e.target.value)}
+                        tabIndex='-1'
+                        autoComplete='off'
+                    />
+                    <button className='btn btn-primary' type='submit'>Submit</button>
+                </form>
+            </div>
         </div>
     )
 }
