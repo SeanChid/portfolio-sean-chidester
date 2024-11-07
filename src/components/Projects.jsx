@@ -28,7 +28,7 @@ const Projects = () => {
                 <div className='adoptahobby-img'></div>
                 <div className='project-info'>
                     <p className='project-text'>
-                        A hobbiest website created with React with a Postgres database.
+                        A hobbiest website created with React to help people explore new hobbies.
                     </p>
                 </div>
                 <div className='project-btns'>
