@@ -3,8 +3,10 @@ const Home = () => {
         <div className='home-pos'>
             <div className='intro-txt'>
                 <p>
-                    Hello, I'm Sean. I'm a web developer/ software engineer in Lehi, Utah.
-                    I'm proficient in React.js, Redux, PostgreSQL, and more.
+                    Hi, I'm Sean, a passionate web developer and software engineer based in Lehi, Utah. 
+                    I craft responsive, high-performance web applications with a strong foundation in React.js, JavaScript, and PostgreSQL. 
+                    With a commitment to clean code and scalable solutions, I bring a user-focused approach to every project, 
+                    creating seamless and engaging digital experiences.
                 </p>
             </div>
             <div className='link-btns'>

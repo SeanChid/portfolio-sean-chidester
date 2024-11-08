@@ -27,7 +27,7 @@ const sendEmail = async (req, res) => {
             res.status(500).send('Error sending email')
         }
     } else {
-        res.status(405).send('Mehod not allowed')
+        res.status(405).send('Method not allowed')
     }
 }
 

@@ -21,7 +21,7 @@ const Contact = () => {
             message: message,
         }
 
-        axios.post('/send-email', info)
+        axios.post('/api/send-email', info)
             .then((res) => {
                 alert('Message successfully sent.')
                 setName('')
