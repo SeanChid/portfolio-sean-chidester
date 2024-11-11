@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer'
+import 'dotenv/config'
 
 const sendEmail = async (req, res) => {
     if (req.method === 'POST') {
