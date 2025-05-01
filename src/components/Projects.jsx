@@ -2,24 +2,25 @@ const Projects = () => {
     return (
         <div className='projects-pos'>
             <div className='project'>
-                <div className='skybooking-img'></div>
+                <div className='chatroomexp-img'></div>
                 <div className='project-info'>
                     <p className='project-text'>
-                        Sky Booking is a flight booking application powered by an Express backend and a PostgreSQL database, 
-                        designed to provide real-time scheduled flight information through an integrated flight data API. 
-                        With a focus on simplicity and reliability, Sky Booking offers users a streamlined and efficient booking experience.
+                        Chatroom Experience is a minimalistic chatroom application leveraging websockets for real-time communication between clients.
+                        Designed and implemented a robust PostgreSQL database to ensure reliable chat history storage, 
+                        providing efficient data persistence and fast retrieval for users. Integrated Redux to handle user authentication and state management,
+                        ensuring a smooth and consistent login flow and UI updates across components.
                     </p>
                 </div>
                 <div className='project-btns'>
                     <button 
                         className='btn btn-primary' 
-                        onClick={() => window.location.href = 'https://github.com/SeanChid/wb-project-2'}
+                        onClick={() => window.location.href = 'https://github.com/SeanChid/web-sockets-example'}
                     >
                         GitHub
                     </button>
                     <button 
                         className='btn btn-primary' 
-                        onClick={() => window.location.href = 'https://www.youtube.com/watch?v=fIIu3Auwdvs'}
+                        onClick={() => window.location.href = 'https://youtu.be/slMmx_JJQuU'}
                     >
                         Demo
                     </button>
@@ -46,6 +47,30 @@ const Projects = () => {
                     <button 
                         className='btn btn-primary' 
                         onClick={() => window.location.href = 'https://www.youtube.com/watch?v=76hOG2_k0UI'}
+                    >
+                        Demo
+                    </button>
+                </div>
+            </div>
+            <div className='project'>
+                <div className='skybooking-img'></div>
+                <div className='project-info'>
+                    <p className='project-text'>
+                        Sky Booking is a flight booking application powered by an Express backend and a PostgreSQL database, 
+                        designed to provide real-time scheduled flight information through an integrated flight data API. 
+                        With a focus on simplicity and reliability, Sky Booking offers users a streamlined and efficient booking experience.
+                    </p>
+                </div>
+                <div className='project-btns'>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://github.com/SeanChid/wb-project-2'}
+                    >
+                        GitHub
+                    </button>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://www.youtube.com/watch?v=fIIu3Auwdvs'}
                     >
                         Demo
                     </button>
