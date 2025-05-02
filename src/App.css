@@ -155,7 +155,7 @@ h5 {
   gap: 20px;
 }
 
-.skybooking-img, .adoptahobby-img, .chatroomexp-img {
+.skybooking-img, .adoptahobby-img, .chatroomexp-img, .chatapp-img {
   width: 600px;
   height: 300px;
   border-radius: 20px;
@@ -164,7 +164,7 @@ h5 {
   transition: all 0.3s ease;
 }
 
-.skybooking-img:hover, .adoptahobby-img:hover, .chatroomexp-img:hover {
+.skybooking-img:hover, .adoptahobby-img:hover, .chatroomexp-img:hover, .chatapp-img:hover {
   width: 650px;
   height: 325px;
 }
@@ -179,6 +179,10 @@ h5 {
 
 .chatroomexp-img {
   background-image: url(assets/ChatroomExperience.png);
+}
+
+.chatapp-img {
+  background-image: url(assets/ChatApp.png);
 }
 
 .contact-form {

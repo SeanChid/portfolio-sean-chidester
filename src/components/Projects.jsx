@@ -2,6 +2,33 @@ const Projects = () => {
     return (
         <div className='projects-pos'>
             <div className='project'>
+                <h3>ChatApp</h3>
+                <div className='chatapp-img'></div>
+                <div className='project-info'>
+                    <p className='project-text'>
+                        ChatApp is a real-time messaging platform built using Socket.IO to provide fast and reliable bidirectional communication between users.
+                        It leverages Windsurf to streamline development, improve component structure, and enhance overall code maintainability. 
+                        A scalable PostgreSQL database schema was designed and optimized to efficiently store and retrieve chat history,
+                        ensuring consistent performance as the application grows.
+                    </p>
+                </div>
+                <div className='project-btns'>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://github.com/SeanChid/Socket-io-Demo'}
+                    >
+                        GitHub
+                    </button>
+                    <button 
+                        className='btn btn-primary' 
+                        onClick={() => window.location.href = 'https://youtu.be/1JTsSOpIoMc'}
+                    >
+                        Demo
+                    </button>
+                </div>
+            </div>
+            <div className='project'>
+                <h3>Chatroom Experience</h3>
                 <div className='chatroomexp-img'></div>
                 <div className='project-info'>
                     <p className='project-text'>
@@ -27,6 +54,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='project'>
+                <h3>Adopt A Hobby</h3>
                 <div className='adoptahobby-img'></div>
                 <div className='project-info'>
                     <p className='project-text'>
@@ -53,6 +81,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='project'>
+                <h3>Sky Booking</h3>
                 <div className='skybooking-img'></div>
                 <div className='project-info'>
                     <p className='project-text'>
